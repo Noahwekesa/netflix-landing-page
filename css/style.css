@@ -168,3 +168,39 @@ hr
     margin-right: 50px;
 }
 /*frequently asked question*/
+.faq-section
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 32px;
+    justify-content: center;
+}
+.dropbtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 45, 45);
+    width: 70%;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: left;
+    padding: 20px;
+}
+.dropdown{
+    position: relative;
+    transition: all 0.5;
+    overflow: none;
+    text-align: center;
+}
+.dropdown-content
+{
+    background-color: rgb(45, 45, 45);
+    padding: 24PX;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 15%;;
+    margin-right: 15%;
+    display: none;
+}
+.show
+{
+    display:block;
+}
