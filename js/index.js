@@ -1,17 +1,15 @@
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+// Get all the dropdown buttons
+var dropdownBtns = document.getElementsByClassName("dropbtn");
 
-  // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
+// Loop through the buttons and add a click event listener to each one
+for (var i = 0; i < dropdownBtns.length; i++) {
+    dropdownBtns[i].addEventListener("click", function() {
+        // Toggle the visibility of the dropdown content when the button is clicked
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
         }
-    }
+    });
 }

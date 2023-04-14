@@ -186,7 +186,7 @@ hr
 }
 .dropdown{
     position: relative;
-    transition: all 0.5;
+    transition: 5s;
     overflow: none;
     text-align: center;
 }
@@ -200,7 +200,13 @@ hr
     margin-right: 15%;
     display: none;
 }
-.show
+.container
 {
-    display:block;
+    display: flex;
+    flex-direction: column;
+}
+.container .columns
+{
+    height: 100;
+    width: 100%;
 }
