@@ -248,3 +248,44 @@ hr
     color: #777;
     margin: 10px 10px;
 }
+
+/*
+media queries for small screen
+*/
+@media only screen and (max-width: 600px)
+{
+    .logo{
+        width: 100px;
+    }
+    .header
+    {
+        position:unset;
+        transform: none;
+        z-index: 1;
+    }
+    .header-content h1 
+    {
+        font-size: 30px;
+    }
+    .sections
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .second-content, .img-col
+    {
+        display: flex;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .second-content
+    {
+        font-size: 16px;
+        flex-direction: column;
+    }
+    .img-col
+    {
+        width: 100px;
+        height: 400px;
+    }
+}
