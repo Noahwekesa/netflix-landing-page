@@ -2,4 +2,4 @@
 Replicating the landing page of www.netflix.co.ke with a bit of javascript
 
 ## RESULTS! 
-[alt text](https://github.com/Noahwekesa/netflix-landing-page/tree/master/screenshots/1.png?raw=true)
+[alt text](https://github.com/Noahwekesa/netflix-landing-page/blob/master/screenshots/1.png?raw=true)
